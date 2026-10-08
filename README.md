@@ -1,59 +1,121 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🎤 KARAOKE RECORD
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+カラオケで歌った曲や点数を記録し、自分の成長を確認できるカラオケ記録アプリです。
 
-## About Laravel
+## 📌 アプリ概要
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+「KARAOKE RECORD」は、カラオケが趣味の人を対象としたWebアプリです。
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+歌った曲、点数、歌唱日などを記録し、歌唱履歴やランキング、マイページのグラフなどから自分の成長を確認できます。
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🎯 開発目的
 
-## Learning Laravel
+- 歌った曲や点数を簡単に記録する
+- 過去の歌唱履歴を確認する
+- 最高得点や平均点を確認する
+- 歌唱回数や点数の推移から成長を確認する
+- ランキングを利用して高得点を目指す
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## 👤 想定ユーザー
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+カラオケが趣味で、歌った曲や点数を記録しながら自分の成長を確認し、高得点を目指す人。
 
-## Laravel Sponsors
+## ✨ 主な機能
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### 🔐 ユーザー機能
+- ユーザー登録
+- ログイン・ログアウト
+- パスワード変更
+- プロフィール編集
 
-### Premium Partners
+### 🎵 曲・歌唱記録
+- 曲の登録
+- 曲名・歌手名の検索
+- 点数の記録
+- 歌唱日の記録
+- コメントの記録
+- 歌唱履歴の表示
+- 歌唱履歴の編集・削除
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+### ❤️ お気に入り
+- 曲のお気に入り登録
+- お気に入り曲一覧
 
-## Contributing
+### 🏆 ランキング
+- 今週のランキング
+- 今月のランキング
+- 昭和ランキング
+- 平成ランキング
+- 令和ランキング
+- 曲別ランキング
+- 成長率ランキング
+- 歌唱回数ランキング
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 📊 マイページ
+- 総合平均点
+- 最高得点
+- 点数の推移
+- ジャンル別の歌唱回数
+- 月ごとの歌唱回数
 
-## Code of Conduct
+## 🖥️ 画面
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- ログイン画面
+- ユーザー登録画面
+- ホーム画面
+- 曲登録画面
+- 曲検索画面
+- 歌唱履歴画面
+- ランキング画面
+- お気に入り画面
+- マイページ
+- プロフィール画面
+- 設定画面
+- パスワード変更画面
 
-## Security Vulnerabilities
+## 🛠️ 使用技術
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+| 技術 | 内容 |
+|---|---|
+| Laravel | Webアプリケーション開発 |
+| PHP | バックエンド |
+| MySQL | データベース |
+| HTML / CSS | 画面作成 |
+| JavaScript | 画面・機能の処理 |
+| Vite | フロントエンド開発環境 |
+| XAMPP | ローカル開発環境 |
+| VS Code | 開発環境 |
+| Git / GitHub | ソースコード管理 |
 
-## License
+## 🗄️ データベース
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+主なテーブル：
+
+- `users`：ユーザー情報
+- `songs`：曲情報
+- `records`：歌唱記録
+- `favorites`：お気に入り情報
+
+## 🎨 デザイン
+
+ダーク系のデザインをベースに、ネイビー・紫・ピンクを使用しています。
+
+カード型のレイアウトや下部ナビゲーションを採用し、各機能へ移動しやすいUIを目指しました。
+
+## 🚀 開発環境
+
+### 必要なもの
+
+- PHP 8.2以上
+- Composer
+- Node.js / npm
+- MySQL
+- XAMPP
+
+### セットアップ
+
+リポジトリをクローンします。
+
+```bash
+git clone https://github.com/ivyc251001andou/karaoke-app.git
+cd karaoke-app
